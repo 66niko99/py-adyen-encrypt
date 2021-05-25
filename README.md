@@ -4,10 +4,10 @@ Py Adyen Encrypt is a python library used to encrypt data to be used for Adyen's
 
 ## Installation
 
-Use [pip](https://pip.pypa.io/en/stable/) to install.
+Use [pip](https://pip.pypa.io/en/stable/) to install directly from github.
 
 ```bash
-pip install py-adyen-encrypt
+pip install git+https://github.com/66niko99/py-adyen-encrypt.git
 ```
 
 ## Usage
