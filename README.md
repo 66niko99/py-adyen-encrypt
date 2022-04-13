@@ -32,7 +32,7 @@ enc.adyen_public_key = "10001|ABC123..."
 
 # generating card data
 enc = encryptor(ADYEN_KEY)
-card = enc.encrypt_card(card='4143140003850207', cvv='561', month='03', year='2022')
+card = enc.encrypt_card(card='4444222233337777', cvv='999', month='03', year='2025')
 print(card)  # {"card": "adyen...", "cvv": "adyen...", "month": "adyen...", "year": "adyen..."}
 
 # encrypting a single field
