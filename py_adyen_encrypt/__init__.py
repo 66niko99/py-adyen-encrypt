@@ -9,7 +9,7 @@ import base64
 
 
 class encryptor:
-    def __init__(self, adyen_public_key, adyen_version='_0_1_8', adyen_prefix='adyenjs'):
+    def __init__(self, adyen_public_key, adyen_version='_0_1_25', adyen_prefix='adyenjs'):
         """
         :param adyen_public_key: adyen key, looks like this: "10001|A2370..."
         :param adyen_version: version of adyen encryption, looks like this: _0_1_8
